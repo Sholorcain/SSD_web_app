@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
+  get 'static_pages/purchase_orders'
+
+  get 'static_pages/items'
+
+  resources :items
   resources :purchase_orders
   root 'home#index'
   
