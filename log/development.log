@@ -6770,3 +6770,754 @@ Processing by PurchaseOrdersController#index as HTML
 Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:43:33 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 309ms (Views: 302.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:43:36 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:43:39 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.3ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 47ms (Views: 43.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:44:45 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:44:51 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:45:20 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:45:27 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:45:33 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:45:34 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:45:35 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:47:59 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 52ms (Views: 50.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:48:03 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:48:06 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:48:08 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 43ms (Views: 41.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:48:10 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:48:11 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:48:12 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:48:13 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:48:14 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:48:14 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:48:15 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:48:16 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:48:17 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:48:18 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:48:20 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:48:21 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:48:22 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:48:24 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:48:29 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:48:31 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:48:33 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (14.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:48:34 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:52:32 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:53:12 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 21:53:21 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:53:27 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:53:34 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:56:20 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 21:56:38 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:56:44 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 21:56:52 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:00:32 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:00:52 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:02:46 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:02:56 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:03:06 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:03:23 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:03:53 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 22:04:00 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:04:06 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 35.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:04:08 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 22:04:09 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:04:10 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:04:11 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:04:12 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 22:04:13 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 22:07:01 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 1826ms (Views: 1825.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 22:08:16 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 1172ms (Views: 1171.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:08:23 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:08:25 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:08:54 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.3ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 1162ms (Views: 1161.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:08:58 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 80ms (Views: 78.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 22:09:00 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:09:09 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:09:10 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:09:11 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:09:12 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 49.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-18 22:09:13 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:09:15 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.1ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:09:16 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:09:17 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:09:18 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-18 22:09:19 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/purchase_orders/new" for 80.233.62.184 at 2020-05-18 22:09:24 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#new as HTML
+  Rendering purchase_orders/new.html.erb within layouts/application
+  Rendered purchase_orders/_form.html.erb (35.3ms)
+  Rendered purchase_orders/new.html.erb within layouts/application (36.2ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:09:33 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items/new" for 80.233.62.184 at 2020-05-18 22:09:34 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#new as HTML
+  Rendering items/new.html.erb within layouts/application
+  Rendered items/_form.html.erb (7.0ms)
+  Rendered items/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-18 22:09:40 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
