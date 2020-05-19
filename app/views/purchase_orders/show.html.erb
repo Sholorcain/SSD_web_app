@@ -1,4 +1,10 @@
+<div class="container text-center">
 <p id="notice"><%= notice %></p>
+
+<p>
+  <strong>ID:</strong>
+  <%= @purchase_order.id %>
+</p>
 
 <p>
   <strong>Date created:</strong>
@@ -17,3 +23,4 @@
 
 <%= link_to 'Edit', edit_purchase_order_path(@purchase_order) %> |
 <%= link_to 'Back', purchase_orders_path %>
+</div>
