@@ -1,4 +1,6 @@
 class PurchaseOrder < ApplicationRecord
+  has_many :items
+
   validates :id, uniqueness: true
   validates :date_created, presence: true, allow_blank: false
   validates :quantity, presence: true, allow_blank: false

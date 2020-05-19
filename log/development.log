@@ -10202,3 +10202,64 @@ puma (3.12.4) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
   Rendering /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /home/ubuntu/.rvm/gems/ruby-2.6.3/gems/actionpack-5.0.7.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.7ms)
+Started GET "/" for 80.233.62.184 at 2020-05-19 02:37:14 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/application (11.6ms)
+  Rendered layouts/_navbar.html.erb (1.1ms)
+Completed 200 OK in 412ms (Views: 399.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-19 02:37:16 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 82ms (Views: 79.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-19 02:37:19 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 62ms (Views: 55.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/items" for 80.233.62.184 at 2020-05-19 02:37:20 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ItemsController#index as HTML
+  Rendering items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  Rendered items/index.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 45ms (Views: 42.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/purchase_orders" for 80.233.62.184 at 2020-05-19 02:37:22 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PurchaseOrdersController#index as HTML
+  Rendering purchase_orders/index.html.erb within layouts/application
+  [1m[36mPurchaseOrder Load (0.2ms)[0m  [1m[34mSELECT "purchase_orders".* FROM "purchase_orders"[0m
+  Rendered purchase_orders/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 80.233.62.184 at 2020-05-19 02:37:23 +0000
+Cannot render console from 80.233.62.184! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.2ms)
+
+
